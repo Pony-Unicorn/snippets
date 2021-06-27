@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "../build/utils/",
+    "sourceMap": true,
+    "declaration": true,
+    "allowUnreachableCode": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "lib": ["es6", "dom", "es2015.promise"]
+  },
+  "include": ["./**.ts"]
+}
