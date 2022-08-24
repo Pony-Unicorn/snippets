@@ -7,11 +7,13 @@ export type typeMapStringOrNumber = {
   [index: string]: string | number;
 };
 
+export const now = () => (Date.now() / 1000) | 0;
+
 /**
  * 沉睡一段时间
  * @param ms 延迟的毫秒数
  */
-export const sleep: (ms: number) => Promise<void> = (ms) =>
+export const sleep = (ms = 1000) =>
   new Promise((resolve) => setTimeout(resolve, ms));
 
 /**

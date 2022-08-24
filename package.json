@@ -1,6 +1,6 @@
 {
-  "name": "fragment",
-  "version": "1.0.0",
+  "name": "snippets",
+  "version": "1.0.1",
   "description": "JavaScript 常用代码片段 ",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/pony13500815917/fragment#readme",
   "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "lodash": "^4.17.21",
     "typescript": "^4.2.4"
   }
 }
