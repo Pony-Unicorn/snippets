@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "outDir": "../build/utils/",
+    "outDir": "./build/",
     "sourceMap": true,
     "declaration": true,
     "allowUnreachableCode": true,
